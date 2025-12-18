@@ -15,5 +15,11 @@ def somme_deux_entiers():
     except ValueError:
         print("Erreur : Veuillez entrer uniquement des nombres entiers.")
 
+def division(a, b):
+    if b == 0:
+        return "Erreur : division par zéro impossible"
+    return a / b
+
 # Appel de la fonction
 somme_deux_entiers()
+print (division(5, 2))
