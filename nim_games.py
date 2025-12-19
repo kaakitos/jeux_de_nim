@@ -20,6 +20,9 @@ def division(a, b):
         return "Erreur : division par zéro impossible"
     return a / b
 
+def multiply(a, b):
+    return a * b
+
 # Appel de la fonction
 somme_deux_entiers()
 print (division(5, 2))
