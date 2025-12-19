@@ -23,3 +23,6 @@ def division(a, b):
 # Appel de la fonction
 somme_deux_entiers()
 print (division(5, 2))
+print("********** AUTRES TEST **********")
+somme_deux_entiers()
+print (division(5, 5))
