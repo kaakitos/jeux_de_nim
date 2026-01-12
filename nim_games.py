@@ -22,7 +22,6 @@ def division(a, b):
 
 def multiply(a, b):
     return a * b
-
 # Appel de la fonction
 somme_deux_entiers()
 print (division(5, 2))
@@ -34,3 +33,4 @@ print (multiply(5, 15))
 print (multiply(15, 15))
 print (multiply(15, 15))
 print (multiply(15, 5))
+print (division(5, 5))
